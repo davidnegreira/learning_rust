@@ -8,7 +8,7 @@ fn main() {
 
     let secret_number = rand::thread_rng().gen_range(1, 101);
 
-    println!("El número secreto es:{}",secret_number);
+    println!("El número secreto es:{}", secret_number);
 
     let mut guess = String::new();
 
@@ -18,7 +18,7 @@ fn main() {
     let guess: u32 = guess.trim().parse()
         .expect("Por favor pon un número");
 
-    println!("Has dicho: {}",guess);
+    println!("Has dicho: {}", guess);
 
     match guess.cmp(&secret_number) {
         Ordering::Less => println!("Demasiado pequeño"),
