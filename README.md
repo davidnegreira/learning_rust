@@ -1,2 +1,2 @@
 # learning_rust
-trying to learn rust
+trying to learn rust.
